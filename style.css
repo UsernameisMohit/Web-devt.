@@ -1,0 +1,20 @@
+#h1 {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  font-weight: bold;
+}
+
+span {
+  font-weight: bold;
+  
+}
+
+a {
+  color: black;
+  font-style: italic;
+  background-color: wheat;
+  
+}
+
