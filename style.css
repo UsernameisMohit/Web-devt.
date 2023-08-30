@@ -1,4 +1,6 @@
 *{
+    overflow: scroll;
+    border-radius: 20px;
     margin: 0;
     padding: 0;
 }
@@ -78,10 +80,11 @@ text-decoration: underline white;
 /* nav tab styling */
 
 #Home{
+font-size: 20px;
  margin: 5px;
    background-color: #c9c9c9;
     text-align: center;
-    height: 90vh;
+    height: 20vh;
     width: 98vw;
     border: 2px solid black;
 }
@@ -89,7 +92,7 @@ text-decoration: underline white;
   margin: 5px;
    background-color: #c9c9c9;
     text-align: center;
-    height: 90vh;
+    height: 20vh;
     width: 98vw;
     border: 2px solid black;
     
@@ -99,7 +102,17 @@ text-decoration: underline white;
     margin: 5px;
    background-color: #c9c9c9;
     text-align: center;
-    height: 90vh;
+    height: 20vh;
     width: 98vw;
     border: 2px solid black;
+}
+
+/* boldness of text */
+h3{
+text-decoration: underline black;
+
+}
+
+.firstPara{
+font-size: 20px;
 }
