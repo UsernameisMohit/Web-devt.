@@ -5,6 +5,12 @@
 
 /* Navbar styling */
 
+#top{
+    height: 80px;
+    width: 98vw;
+}
+
+
 #navbar {
    display: flex;
     background-color: black;
@@ -72,7 +78,7 @@ text-decoration: underline white;
 /* nav tab styling */
 
 #Contact{
-
+  
     margin: 5px;
    background-color: #c9c9c9;
     text-align: center;
