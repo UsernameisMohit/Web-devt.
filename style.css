@@ -12,6 +12,9 @@
     height: 70px;
  border-radius: 20px;
  align-items: center;
+ position: fixed;
+ top: 2px;
+ 
 }
 
 .center-box {
@@ -63,4 +66,26 @@ text-decoration: underline white;
  width: 50px;
   border: 1px solid transparent;
  border-radius: 100px;
+}
+
+
+/* nav tab styling */
+
+#Contact{
+
+    margin: 5px;
+   background-color: #c9c9c9;
+    text-align: center;
+    height: 90vh;
+    width: 98vw;
+    border: 2px solid black;
+}
+
+#About{
+    margin: 5px;
+   background-color: #c9c9c9;
+    text-align: center;
+    height: 90vh;
+    width: 98vw;
+    border: 2px solid black;
 }
