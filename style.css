@@ -77,14 +77,22 @@ text-decoration: underline white;
 
 /* nav tab styling */
 
-#Contact{
-  
-    margin: 5px;
+#Home{
+ margin: 5px;
    background-color: #c9c9c9;
     text-align: center;
     height: 90vh;
     width: 98vw;
     border: 2px solid black;
+}
+#Contact{
+  margin: 5px;
+   background-color: #c9c9c9;
+    text-align: center;
+    height: 90vh;
+    width: 98vw;
+    border: 2px solid black;
+    
 }
 
 #About{
