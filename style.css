@@ -6,8 +6,18 @@
 /* Navbar styling */
 
 #navbar {
+   display: flex;
+    background-color: black;
+    width: 98%;
+    height: 70px;
+ border-radius: 20px;
+ align-items: center;
+}
+
+.center-box {
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 /* Navbar styling : list items */
@@ -28,8 +38,18 @@ list-style: none;
 
 .navlist li a {
 text-decoration: none;
+color: #c4c4c4;
 }
 
+.navlist li a:hover{
+color: white;
+text-decoration: underline white;
+}
+
+a:active{
+color: white;
+text-decoration: underline white;
+}  
 
 /*Navbar styling : Logo*/
 
@@ -39,8 +59,8 @@ text-decoration: none;
 
 
 #logo img{
-    height: 150px;
- width: 100%;
+    height: 50px;
+ width: 50px;
   border: 1px solid transparent;
  border-radius: 100px;
 }
