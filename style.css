@@ -10,10 +10,13 @@
 #top{
     height: 80px;
     width: 98vw;
+    display: flex;
+
 }
 
 
 #navbar {
+ margin-left: 15px;
    display: flex;
     background-color: black;
     width: 98%;
