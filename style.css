@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap');
+
+
 *{
 font-size: 20px;
     overflow: scroll;
@@ -131,7 +134,7 @@ text-decoration: underline black;
 
 .firstpara{
 font-size: 20px;
-
+font-family: 'Bricolage Grotesque', sans-serif;
 }
 
 /*text to speech*/
