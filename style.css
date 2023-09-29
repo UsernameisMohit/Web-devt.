@@ -119,7 +119,7 @@ padding-top: 15px;
 
 #Contact{
   margin: 5px;
-   background-color: #c9c9c9;
+background-image: linear-gradient(180deg, #FF9933, #FFFFFF, #138808);
     text-align: center;
     height: 30vh;
     width: 98vw;
