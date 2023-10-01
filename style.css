@@ -10,7 +10,7 @@
 
 *{
 font-size: 20px;
-    overflow: scroll;
+   
     border-radius: 20px;
     margin: 0;
     padding: 0;
@@ -103,7 +103,8 @@ text-decoration: underline white;
 font-size: 20px;
  margin: 5px;
    background-color: #c9c9c9;
-  
+overflow-x: hidden;
+overflow-y: scroll;
     text-align: center;
     height: 30vh;
     width: 98vw;
