@@ -89,9 +89,6 @@ text-decoration: underline white;
 
 
 #logo img{
- 
-    height: 50px;
- width: 50px;
   border: 1px solid transparent;
  border-radius: 100px;
 }
@@ -106,7 +103,7 @@ font-size: 20px;
 overflow-x: hidden;
 overflow-y: scroll;
     text-align: center;
-    height: 30vh;
+    height: 92vh;
     width: 98vw;
     border: 2px solid black;
 }
@@ -118,25 +115,8 @@ padding-top: 15px;
    
 }
 
-#Contact{
-overflow-y: scroll;
-  margin: 5px;
-background-image: linear-gradient(180deg, #FF9933, #FFFFFF, #138808);
-    text-align: center;
-    height: 30vh;
-    width: 98vw;
-    border: 2px solid black;
-    
-}
 
-#About{
-    margin: 5px;
-   background-color: #c9c9c9;
-    text-align: center;
-    height: 30vh;
-    width: 98vw;
-    border: 2px solid black;
-}
+
 
 /* boldness of text */
 h3{

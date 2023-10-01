@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="contact.css">
+    <title></title>
+</head>
+
+<body>
+<div id="Contact" >
+  <h2 class="container-Head">  Contact Us
+  </h2>
+  
+   <form action="/submit" method="post">
+    <!-- Text input for username -->
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <br><br>
+
+    <!-- Password input -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+
+    <!-- Radio buttons for gender -->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <br><br>
+
+    <!-- Submit button -->
+    <input type="submit" value="Submit">
+  </form>
+  
+  
+</div>
+
+<style>
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+ 
+ *{
+font-size: 20px;
+   
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+ 
+.container-Head{
+font-family: 'Josefin Sans', sans-serif;
+padding-top: 15px;
+    
+   font-size: 50px;
+   
+}
+
+#Contact{
+overflow-y: scroll;
+  margin: 5px;
+background-image: linear-gradient(45deg, black, wheat, #cad4e3);
+    text-align: center;
+    height: 95vh;
+    width: 98vw;
+    border: 2px solid black;
+    
+}
+</style>
+</body>
+
+</html>
